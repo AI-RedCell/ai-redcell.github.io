@@ -399,6 +399,19 @@ section {
     z-index: 2;
     box-shadow: 0 20px 60px rgba(255, 0, 64, 0.4);
     animation: avatarFloat 3s ease-in-out infinite;
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: var(--transition-smooth);
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
 }
 
 @keyframes avatarFloat {
@@ -1087,6 +1100,11 @@ section {
     .avatar-glow {
         width: 230px;
         height: 230px;
+    }
+
+    .profile-img {
+        width: 100%;
+        height: 100%;
     }
 
     .stats {
