@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://ai-redcell.github.io/</loc>
+        <lastmod>2025-11-24</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://ai-redcell.github.io/logo.png</image:loc>
+            <image:title>AI RedCell Logo</image:title>
+            <image:caption>AI RedCell - Ethical AI Jailbreaking Research</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://ai-redcell.github.io/my-img.png</image:loc>
+            <image:title>Shehan Nilukshan - AI Security Researcher</image:title>
+            <image:caption>Shehan Nilukshan, Founder of AI RedCell</image:caption>
+        </image:image>
+    </url>
+</urlset>

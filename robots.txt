@@ -1,0 +1,18 @@
+# AI RedCell - Robots.txt
+# Website: https://ai-redcell.github.io/
+# Owner: Shehan Nilukshan
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ai-redcell.github.io/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow sensitive files
+Disallow: /*.json$
+Disallow: /package*.json
+Disallow: /.git/
+Disallow: /.gitignore
